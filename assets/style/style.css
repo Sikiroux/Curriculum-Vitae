@@ -13,6 +13,7 @@ body {
     background-color: var(--rouge);
     width: 1160px;
     margin: auto;
+    height: 100vh;
 }   
 
 header {
@@ -48,3 +49,26 @@ header #profile-picture {
     color: white;
 }
 
+
+aside {
+    width: 387px;
+}
+
+aside section {
+    width: 340px;
+}
+
+aside section h2 {
+    background-color : var(--beige);
+}
+
+.aside .aside__about p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.aside__about p,
+.aside__language ul,
+.aside__hobbies ul {
+    color: white;
+}
