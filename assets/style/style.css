@@ -1,0 +1,10 @@
+:root {
+    --rouge: #782221
+}
+
+
+.container {
+    background-color: var(--rouge);
+    width: 1160px;
+    margin: auto;
+}   
