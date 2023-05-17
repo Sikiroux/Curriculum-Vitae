@@ -13,10 +13,7 @@ body {
     background-color: var(--rouge);
     width: 1160px;
     margin: auto;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    height: 100%;
 }   
 
 header {
