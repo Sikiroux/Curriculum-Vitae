@@ -14,6 +14,9 @@ body {
     width: 1160px;
     margin: auto;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }   
 
 header {
@@ -71,4 +74,14 @@ aside section h2 {
 .aside__language ul,
 .aside__hobbies ul {
     color: white;
+}
+
+main {
+    background-color: white;
+    width: 774px;
+    border-right: solid 1px black;
+}
+
+.main-information {
+    display: flex;
 }
