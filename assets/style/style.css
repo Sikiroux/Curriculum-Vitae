@@ -8,3 +8,21 @@
     width: 1160px;
     margin: auto;
 }   
+
+header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header #profile-picture {
+    background-image: url(../image/profile.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
