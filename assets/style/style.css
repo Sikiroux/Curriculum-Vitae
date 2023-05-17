@@ -66,3 +66,9 @@ aside section h2 {
     text-indent: 30px;
     text-align: justify;
 }
+
+.aside__about p,
+.aside__language ul,
+.aside__hobbies ul {
+    color: white;
+}
