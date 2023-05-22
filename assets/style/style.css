@@ -9,11 +9,20 @@ body {
     margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../font/raleway/Raleway-VariableFont_wght.ttf) format("truetype"),
+    url(../font/raleway/Raleway-Italic-VariableFont_wght.ttf) format("truetype");
+}
+
 .container {
     background-color: var(--rouge);
     width: 1160px;
     margin: auto;
     height: 100%;
+    font-family: "Raleway", sans-serif;
 }   
 
 header {
@@ -23,6 +32,11 @@ header {
     text-align: center;
     align-items: center;
     padding-top: 20px;
+}
+
+header h1,
+header h2 {
+    font-family: "Lato", sans-serif;
 }
 
 header #profile-picture {
