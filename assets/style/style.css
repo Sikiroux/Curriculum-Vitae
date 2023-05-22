@@ -77,6 +77,10 @@ header #profile-picture:hover {
     color: white;
 }
 
+address a:hover {
+    text-decoration-line: underline;
+}
+
 
 aside {
     width: 387px;
