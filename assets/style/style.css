@@ -119,3 +119,7 @@ footer nav {
     justify-content: center;
     gap: 15px;
 }
+
+footer p {
+    text-align: center;
+}
