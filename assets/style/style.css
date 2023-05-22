@@ -133,6 +133,10 @@ footer nav a div {
     width: 70px;
 }
 
+footer nav a div:hover {
+    opacity: 50%;
+}
+
 footer nav .github .github__icon {
     background-image: url(../icon/github.png);
     background-size: cover;
