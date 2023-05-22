@@ -23,6 +23,7 @@ body {
     margin: auto;
     height: 100%;
     font-family: "Raleway", sans-serif;
+    box-sizing: content-box;
 }   
 
 header {
@@ -48,6 +49,7 @@ header #profile-picture {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    box-shadow: 0 0 15px rgb(44, 33, 33);
 }
 
 .address {
@@ -76,6 +78,7 @@ aside section {
 
 aside section h3 {
     background-color : var(--beige);
+    text-indent: 15px;
 }
 
 .aside .aside__about p {
@@ -102,6 +105,7 @@ main {
 main section h3 {
     background-color: var(--beige);
     text-indent: 15px;
+    border-left: 7px solid var(--rouge);
 }
 
 main section {
