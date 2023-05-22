@@ -52,6 +52,16 @@ header #profile-picture {
     box-shadow: 0 0 15px rgb(44, 33, 33);
 }
 
+header #profile-picture a {
+    height: 100%;
+    width: 100%;
+}
+
+header #profile-picture:hover {
+    cursor: zoom-in;
+}
+
+
 .address {
     width: 100%;
     height: 80px;
