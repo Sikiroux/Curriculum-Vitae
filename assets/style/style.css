@@ -60,6 +60,7 @@ header #profile-picture {
     align-items: center;
     background-color: var(--noir);
     justify-content: space-around;
+    flex-grow: 1;
 }
 
 .address a{
@@ -88,7 +89,8 @@ aside section h3 {
 
 .aside__about p,
 .aside__language ul,
-.aside__hobbies ul {
+.aside__hobbies ul,
+.aside__about ol {
     color: white;
 }
 
